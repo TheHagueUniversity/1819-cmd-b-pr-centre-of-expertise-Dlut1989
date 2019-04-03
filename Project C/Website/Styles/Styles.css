@@ -76,3 +76,7 @@ blockquote{
 	text-align: center;
 	font-style: italic;
 }
+
+#subject{
+	height:100px;
+}
