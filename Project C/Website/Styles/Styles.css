@@ -7,9 +7,41 @@ header{
 
 }
 
-nav{
+#header{
+	z-index: 0;
+}
+#logoHss{
+	width: 10px;
+	height: 10px;
+}
 
+.active {
+  background-color: #6b00ff;
+}
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #b2ae00;
+}
 
+nav li {
+  float: left;
+  border-right: 2px solid #bbb;
+}
+
+nav li a {
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 22px 25px;
+  text-decoration: none;
+  font-style: ;
+}
+
+nav li a:hover {
+  background-color: #fff800;
 }
 
 main{
@@ -38,4 +70,9 @@ h1, h2{
 p{
 
 
+}
+
+blockquote{
+	text-align: center;
+	font-style: italic;
 }
