@@ -7,13 +7,7 @@ header{
 
 }
 
-#header{
-	z-index: 0;
-}
-#logoHss{
-	width: 10px;
-	height: 10px;
-}
+	
 
 .active {
   background-color: #6b00ff;
